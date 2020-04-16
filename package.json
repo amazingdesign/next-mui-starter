@@ -9,8 +9,16 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.9.10",
+    "image-trace-loader": "^1.0.2",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-optipng": "^7.1.0",
+    "lqip-loader": "^2.2.0",
     "next": "9.3.5",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.5.8",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-image": "^2.4.0",
+    "webp-loader": "^0.6.0"
   }
 }
