@@ -31,7 +31,7 @@ export default function Index() {
         className={classes.img}
         src={[
           require('../images/astronaut.jpg?webp'),
-          require('../images/astronaut.jpg')
+          require('../images/astronaut.jpg'),
         ]}
         loader={<img src={require('../images/astronaut.jpg?trace').trace} alt={'loader'} />}
       />
@@ -43,14 +43,14 @@ export default function Index() {
         <Box my={4}>
           <Typography variant="h4" component="h1" gutterBottom>
             Next.js example
-        </Typography>
+          </Typography>
           <Link href="/about" color="secondary">
             Go to the about page
           </Link>
           <br />
           <Link href="/next" color="secondary">
             Go to the next.js page
-           </Link>
+          </Link>
           <ProTip />
           <Copyright />
         </Box>

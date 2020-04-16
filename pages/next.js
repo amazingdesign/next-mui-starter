@@ -1,3 +1,5 @@
+/* eslint-disable max-lines */
+import React from 'react'
 import Head from 'next/head'
 
 export default function Home() {
@@ -37,6 +39,7 @@ export default function Home() {
           </a>
 
           <a
+            // eslint-disable-next-line max-len
             href="https://zeit.co/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className="card"
           >
